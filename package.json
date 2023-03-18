@@ -1,0 +1,23 @@
+{
+  "name": "patrongreen-lp",
+  "version": "1.0.0",
+  "description": "Patron Green Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "--coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valeriamurguiag/PATRONGREEN-LP.git"
+  },
+  "keywords": [
+    "landing",
+    "page"
+  ],
+  "author": "Valeria Murguía García",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valeriamurguiag/PATRONGREEN-LP/issues"
+  },
+  "homepage": "https://github.com/valeriamurguiag/PATRONGREEN-LP#readme"
+}
