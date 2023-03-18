@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/valeriamurguiag/PATRONGREEN-LP/issues"
   },
-  "homepage": "https://github.com/valeriamurguiag/PATRONGREEN-LP#readme"
+  "homepage": "https://github.com/valeriamurguiag/PATRONGREEN-LP#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
 }
