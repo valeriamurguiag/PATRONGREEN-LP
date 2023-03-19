@@ -49,10 +49,115 @@
 
 .about-us-2 {
     margin: 100px;
+    font-size: 16px;
 }
 
 .about-us-title {
     color: #2A2A2A;
     font-size: 36px;
     font-weight: 500;
+}
+
+.about-us-description {
+    color: #9B9B9B;
+    font-size: 16px;
+}
+
+.about-us-funfact {
+    font-size: 16px;
+}
+
+.services-container {
+    text-align: center;
+    height: 600px;
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.services-title {
+    color: #2A2A2A;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.services-imgs-container {
+    margin: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.product-img {
+    width: 410px;
+    height: 300px;
+}
+
+.products {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.product-img:hover {
+    cursor: pointer;
+    width: 425px;
+    height: 315px;
+}
+
+.lavadoras-container {
+    background-color: #F8F8F8;
+    height: auto;
+}
+
+.lavadoras-title-container {
+    margin: 130px;
+    height: 50px;
+}
+
+.lavadoras-title {
+    color: #2A2A2A;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 60px;
+    position: absolute;
+}
+
+.lavadoras-cards {
+    margin: 130px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 30px
+}
+
+.card {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+}
+
+
+.card-body {
+    background-color: #9B9B9B;
+}
+
+h5.card-title, p.card-text{
+    color: #F8F8F8;
+}
+
+.btn.btn-primary {
+    background-color: #2A2A2A;
+    border: #2A2A2A;
+}
+
+.btn.btn-primary:hover {
+    background-color: #F8F8F8;
+    color: #2A2A2A;
+    border: #F8F8F8;
+}
+
+.refrigeradores-title-container {
+    margin-left: 130px;
+    height: 50px;
 }
