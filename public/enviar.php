@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 $name = $_POST['name'];
 $mail = $_POST['mail'];
 $phone = $_POST['phone'];
@@ -21,4 +21,4 @@ $asunto = 'Asunto del mensaje';
 mail($para, $asunto, utf8_decode($message), $header);
 
 header("Location:index.html")
-?>
+?> -->
