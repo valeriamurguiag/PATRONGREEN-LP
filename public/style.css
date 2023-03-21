@@ -4,20 +4,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
 
-/* .icon {
-    width: 155px;
-} */
-
 .navbar-collapse {
     justify-content: flex-end;
     font-family: 'Roboto Mono', monospace;
     color: #9B9B9B;
     font-weight: 500;
-    font-size: 16px;
-}
-
-.navbar {
-    box-shadow: 1px 2px 4px 1px grey;
+    font-size: 13px;
 }
 
 .navbar-nav {
@@ -25,7 +17,7 @@
 }
 
 .carousel-inner {
-    height: 600px;
+    height: 700px;
 }
 
 .about-us-container {
@@ -291,8 +283,8 @@ h5.card-title, p.card-text{
 }
 
 @media screen and (max-device-width: 768px) {
-    .icon {
-        width: 220px;
+    img.icon {
+        width: 290px;
     }
 
     .navbar-collapse {
@@ -308,15 +300,53 @@ h5.card-title, p.card-text{
         height: 120px;
     }
 
-    .navbar-toggler-icon {
-        display: inline-block;
-        width: 60px;
-        height: 60px;
-        vertical-align: middle;
-        background-image: var(--bs-navbar-toggler-icon-bg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 100%;
+    span.navbar-toggler-icon {
+        width: 90px;
+        height: 90px;
+    }
+
+    .carousel-inner {
+        height: 500px;
+    }
+
+    .about-us-1 {
+        display: none;
+    }
+
+    .about-us-2 {
+        width: 80%;
+    }
+
+    .about-us-title {
+        font-size: 66px;
+    }
+
+    .about-us-description {
+        font-size: 40px;
+    }
+
+    .about-us-container {
+        height: 1100px;
+    }
+
+    .services-container {
+        height: auto;
+        justify-content: center;
+    }
+
+    .services-imgs-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product-img {
+        width: 610px;
+        height: 415px;
+    }
+
+    .lavadoras-cards {
+        justify-content: center;
     }
 
     .form-map-container {
