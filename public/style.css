@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap');
 
 .navbar-collapse {
     justify-content: flex-end;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Manrope', sans-serif;
     color: #9B9B9B;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 15px;
+}
+
+.icon2 {
+    width: 400px;
 }
 
 .navbar-nav {
@@ -24,7 +29,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Manrope', sans-serif;
 }
 
 .about-us-1 {
@@ -62,7 +67,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Manrope', sans-serif;
 }
 
 .services-title {
@@ -91,7 +96,7 @@
 .products-2 {
     font-size: 20px;
     margin-bottom: 20px;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Manrope', sans-serif;
 }
 
 .product-img:hover {
@@ -101,6 +106,11 @@
 }
 
 .lavadoras-container {
+    background-color: #F8F8F8;
+    height: auto;
+}
+
+.refrigeradores-container {
     background-color: #F8F8F8;
     height: auto;
 }
@@ -116,7 +126,7 @@
     font-weight: 500;
     margin-top: 60px;
     position: absolute;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Manrope', sans-serif;
 }
 
 .lavadoras-cards {
@@ -129,7 +139,7 @@
 }
 
 .card {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Manrope', sans-serif;
     font-size: 16px;
     width: 18rem;
 }
@@ -139,13 +149,39 @@
     background-color: #9B9B9B;
 }
 
-h5.card-title, p.card-text{
+h5.card-title,
+p.card-text {
     color: #F8F8F8;
+    margin-left: 15px;
+}
+
+.card-title {
+    margin-left: 15px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-around;
 }
 
 .btn.btn-primary {
     background-color: #2A2A2A;
     border: #2A2A2A;
+    margin-top: 20px;
+}
+ 
+.btn.btn-primary-2 {
+    background-color: #F8F8F8;
+    border: #F8F8F8;
+    color: #2A2A2A;
+    margin-top: 20px;
+}
+
+.btn.btn-primary-2:hover {
+    background-color: #2A2A2A;
+    border: #2A2A2A;
+    color: #D9D9D9;
+    margin-top: 30px;
 }
 
 .btn.btn-primary:hover {
@@ -184,7 +220,7 @@ h5.card-title, p.card-text{
 .text-area {
     background-color: #D9D9D9;
     color: #9B9B9B;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Manrope', sans-serif;
     font-size: 16px;
     border: none;
     height: 37px;
@@ -196,7 +232,7 @@ h5.card-title, p.card-text{
 .message-area-class1 {
     background-color: #D9D9D9;
     color: #9B9B9B;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Manrope', sans-serif;
     font-size: 16px;
     border: none;
     /* height: 200px; */
@@ -209,7 +245,7 @@ h5.card-title, p.card-text{
 .button-area {
     background-color: #81BAB9;
     color: #F8F8F8;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Manrope', sans-serif;
     font-size: 16px;
     border: none;
     height: 37px;
@@ -233,7 +269,7 @@ h5.card-title, p.card-text{
     flex-direction: column;
     height: 280px;
     background-color: #2A2A2A;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Manrope', sans-serif;
     justify-content: center;
     align-items: center;
 }
@@ -390,11 +426,11 @@ h5.card-title, p.card-text{
     }
 
     .button-area {
-            font-size: 36px;
-            height: 67px;
-            margin: 3px;
-            width: 100%;
-            margin-left: 0px;
+        font-size: 36px;
+        height: 67px;
+        margin: 3px;
+        width: 100%;
+        margin-left: 0px;
     }
 
     .products-2 {
@@ -403,7 +439,7 @@ h5.card-title, p.card-text{
         text-align: center;
         margin-top: 140px;
     }
-    
+
     .form-row {
         flex-direction: column;
         gap: 15px;
@@ -462,10 +498,22 @@ h5.card-title, p.card-text{
 
     .card-title {
         font-size: 42px;
+        margin-left: 15px;
     }
 
     .btn.btn-primary {
-        width: 400px;
+        width: 300px;
+        height: 70px;
+        font-size: 36px;
+        margin-top: 30px;
+    }
+
+    .btn.btn-primary-2 {
+        background-color: #F8F8F8;
+        border: #F8F8F8;
+        color: #2A2A2A;
+        /* margin-top: 20px; */
+        width: 300px;
         height: 70px;
         font-size: 36px;
         margin-top: 30px;
