@@ -147,6 +147,9 @@
 
 .card-body {
     background-color: #9B9B9B;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 h5.card-title,
@@ -181,7 +184,6 @@ p.card-text {
     background-color: #2A2A2A;
     border: #2A2A2A;
     color: #D9D9D9;
-    margin-top: 30px;
 }
 
 .btn.btn-primary:hover {
@@ -389,6 +391,12 @@ p.card-text {
         height: 415px;
     }
 
+    .product-img:hover {
+        cursor: pointer;
+        width: 625px;
+        height: 430px;
+    }
+
     .products {
         font-size: 50px;
     }
@@ -517,5 +525,14 @@ p.card-text {
         height: 70px;
         font-size: 36px;
         margin-top: 30px;
+    }
+}
+
+@media screen and (max-device-width: 1180px) {
+    .form-map-container {
+        flex-direction: column;
+        margin: 20px;
+        height: auto;
+        gap: 0px;
     }
 }
