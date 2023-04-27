@@ -535,4 +535,6 @@ p.card-text {
         height: auto;
         gap: 0px;
     }
+
+    /* added iPad media queries */
 }
